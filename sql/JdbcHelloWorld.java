@@ -1,3 +1,11 @@
+/* Instructions:
+ * Download the latest Oracle JDBC driver "ojdbcX.jar", where X is the driver's version
+ * Compile: javac -cp .:lib/ojdbcX.jar JdbcHelloWorld.java
+ * Execute: java -cp .:lib/ojdbcX.jar JdbcHelloWorld
+ *
+ * Author: Rafael Angarita
+ */
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -53,6 +61,5 @@ public class JdbcLab {
         + dname);
     }
   }
-
 
 }
