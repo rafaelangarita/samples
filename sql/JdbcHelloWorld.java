@@ -1,5 +1,6 @@
 /* Instructions:
  * Download the latest Oracle JDBC driver "ojdbcX.jar", where X is the driver's version
+ * Write the information to connect to your Oracle database
  * Compile: javac -cp .:lib/ojdbcX.jar JdbcHelloWorld.java
  * Execute: java -cp .:lib/ojdbcX.jar JdbcHelloWorld
  *
