@@ -12,7 +12,7 @@ import java.sql.Statement;
 import java.sql.SQLException;
 import oracle.jdbc.pool.OracleDataSource;
 
-public class JdbcLab {
+public class JdbcHelloWorld {
 
   private static Connection connection = null;
   private static OracleDataSource ods = null;
